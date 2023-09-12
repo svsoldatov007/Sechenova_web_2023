@@ -2,11 +2,6 @@
 
 В первой части (в перзе) рассказывал об основных понятиях в вебе. Вторая часть занятия была уделена HTML часть 1
 
-## Материалы
-
-1. [Doka](https://doka.guide/html/) - классный справочник с понятным и простым дизайном
-2. [html5book](https://html5book.ru/html-html5/) - **полное** собрание всех тонких моментах об HTML. Тут есть все!
-
 ## О структуре проекта
 
 1. **src** - папка с черновым вариантом проекта
@@ -120,3 +115,21 @@
 ---
 
 Это не все теги - на следующем занятии также пройдем семантиеские теги, но повторюсь - теги не нужно учить наизусть. Всё запоминается на практике, нужно знать только основные (а что такое "основные" - вы тоже поймете на практике :) )
+
+## Материалы урока
+
+### Как работает веб или основные понятия
+
+1. **[Презентация с лекции](https://docs.google.com/presentation/d/1DgfjMIKpp37Y150lRBxB-FnyBfAgoVFlYtnyHbqB3CE/edit?usp=sharing)**
+1. [Как работает интернет ч.1](https://www.youtube.com/watch?v=mshVtIxU0Vg)
+1. [Как работает интернет ч.2](https://www.youtube.com/watch?v=uuzu2QxjMZ4)
+1. [Как работают DNS-сервера](https://www.youtube.com/watch?v=0r55MCfkMfM)
+1. [Что такое домен](https://skillbox.ru/media/marketing/chto-takoe-domen-kakim-on-dolzhen-byt-i-kak-ego-zaregistrirovat/)
+1. [Что такое сервер и хостинг](https://skillbox.ru/media/marketing/chto-takoe-khosting-dlya-sayta-i-kak-ego-vybrat/)
+1. [Что такое http](https://skillbox.ru/media/code/chto-takoe-http-i-zachem-on-nuzhen/)
+1. [Что такое браузер и для чего он](https://skillbox.ru/media/marketing/chto-takoe-brauzer-kakie-byvayut-brauzery-i-chto-oni-umeyut/)
+
+### HTML
+
+1. [Doka](https://doka.guide/html/) - классный справочник с понятным и простым дизайном
+2. [html5book](https://html5book.ru/html-html5/) - **полное** собрание всех тонких моментах об HTML. Тут есть все!
