@@ -61,8 +61,8 @@
 
 Существуют и другие компиляторы-Препроцессоры
 
-1. (Koala)[http://koala-app.com/]
-1. (Scout-app)[https://scout-app.io/]
+1. [Koala](http://koala-app.com/)
+1. [Scout-app](https://scout-app.io/)
 
 ### Адаптивная верстка
 
