@@ -1,0 +1,35 @@
+.my-flex-container {
+  background: rgb(231, 231, 231);
+  margin: 50px 20px;
+  height: 800px;
+
+  display: flex;
+}
+
+.my-flex-block {
+  color: white;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+/* .block1 {
+  order: 3;
+}
+
+.block2 {
+  order: 1;
+}
+
+.block3 {
+  order: 4;
+}
+
+.block4 {
+  order: 5;
+}
+
+.block5 {
+  order: 2;
+} */

@@ -1,0 +1,32 @@
+.container .child {
+  margin: 50px 20px;
+  /* color: red; */
+}
+
+p {
+  color: yellow;
+}
+
+.example1 {
+  color: green;
+}
+
+.example2 {
+  color: rgb(48, 48, 48);
+}
+
+.example3 {
+  color: purple;
+}
+
+.container .example3 {
+  color: green;
+}
+
+.example2.example3 {
+  color: orange;
+}
+
+#text {
+  color: orange;
+}
