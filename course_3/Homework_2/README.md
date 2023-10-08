@@ -4,7 +4,7 @@
 
 Нужно
 
-1. сверстать (макет)[https://www.figma.com/file/TCp1WZv8UEiA6ZhYtciOk7/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%9E%D0%A8?node-id=0%3A1&mode=dev]
+1. сверстать [макет](https://www.figma.com/file/TCp1WZv8UEiA6ZhYtciOk7/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%9E%D0%A8?node-id=0%3A1&mode=dev)
 2. сделать адаптивки (адаптивки делайте по своему усмотрению, главное, чтобы сайт работал правильно)
 3. использовать любой препроцессор (рекомендую scss или sass)
 4. использовать технологию БЭМ

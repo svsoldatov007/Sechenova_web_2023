@@ -77,6 +77,6 @@
 ### Как работает веб или основные понятия
 
 1. [БЭМ](https://ru.bem.info/methodology/quick-start/) - обязательно прочитать
-2. (Sass/Scss)[https://sass-scss.ru/documentation/] - обязательно прочитать
-3. (Про media)[https://html5book.ru/css3-mediazaprosy/]
-4. (Про media 2)[https://doka.guide/css/media/]
+2. [Sass/Scss](https://sass-scss.ru/documentation/) - обязательно прочитать
+3. [Про media](https://html5book.ru/css3-mediazaprosy/)
+4. [Про media 2](https://doka.guide/css/media/)
