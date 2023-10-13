@@ -1,0 +1,45 @@
+.works {
+  &__tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+  }
+  &__tab {
+    display: flex;
+    padding: 4px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    cursor: pointer;
+    border-radius: 10000px;
+    background: $black_main;
+    color: $white_main;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    &:hover {
+      background: $black_hover;
+    }
+    &_outlined {
+      border: 1px solid #000;
+      background: $white_main;
+      color: $black_main;
+
+      &:hover {
+        background: $white_hover;
+      }
+    }
+  }
+  &__imgs {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  &__wrapper-2-imgs {
+    display: flex;
+    justify-content: space-between;
+  }
+}
