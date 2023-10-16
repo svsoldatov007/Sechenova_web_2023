@@ -11,9 +11,25 @@
 
 ## Материалы урока
 
-### Как работает веб или основные понятия
+### Псевдоклассы и псевдоэлементы
 
-1. [БЭМ](https://ru.bem.info/methodology/quick-start/) - обязательно прочитать
-2. [Sass/Scss](https://sass-scss.ru/documentation/) - обязательно прочитать
-3. [Про media](https://html5book.ru/css3-mediazaprosy/)
-4. [Про media 2](https://doka.guide/css/media/)
+1. [Псевдоклассы на Доке](https://doka.guide/css/pseudoclasses/) - обязательно прочитать
+2. [Псевдоэлементы на Доке](https://doka.guide/css/pseudoelements/) - обязательно прочитать
+3. [Псевдоклассы и псевдоэлементы](https://webref.ru/css#pseudo-class)
+
+### Иконки и иконочные шрифты
+
+4. [Сервис поиск иконок](https://www.flaticon.com/)
+5. [Сервис поиска иконочных шрифтов](https://fontawesome.com/) – рекомендую искользовать
+6. [Создание своего иконочного шрифта](https://icomoon.io/app/#/select)
+
+### Что такое favicon, как его создать и вставть и на страницу
+
+4. [Как сделать favicon](https://pr-cy.ru/favicon/)
+5. [Как подключить favicon](https://thecode.media/favicon/) – рекомендую прочитать
+
+### Git и как базово с ним работать.
+
+4. [Официальная документация Git](https://git-scm.com/docs)
+5. **[Курс "Git How To"](https://githowto.com/ru) – рекомендую прочитать**
+6. [Интерактивный тренажер Git](https://learngitbranching.js.org/?locale=ru_RU)
