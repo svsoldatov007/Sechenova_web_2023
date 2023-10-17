@@ -1,0 +1,19 @@
+@import './identic/colors';
+@import './identic/typography';
+@import './identic/mixins';
+@import './identic/btns';
+@import './blocks/header';
+@import './blocks/promo';
+@import './blocks/works';
+
+* {
+  margin: 0;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}

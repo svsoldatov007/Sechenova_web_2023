@@ -1,0 +1,51 @@
+@import './colors';
+
+@mixin card {
+  background-color: rgb(208, 208, 208);
+  width: 800px;
+  margin: 0 auto;
+}
+
+.promo {
+  background-color: white;
+
+  @include card;
+  &__intensive {
+    color: $orange_main;
+  }
+  &__descr {
+    color: $red_main;
+  }
+}
+
+.box {
+  background-color: red;
+  height: 400px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.fix {
+  width: 1000px;
+}
+
+.rubber {
+  min-width: 288px;
+  max-width: 1040px;
+}
+
+.adaptive {
+  max-width: 1040px;
+}
+
+@media (max-width: 1040px) {
+  .adaptive {
+    max-width: 758px;
+  }
+}
+
+@media (max-width: 768px) {
+  .adaptive {
+    max-width: 70%;
+  }
+}
