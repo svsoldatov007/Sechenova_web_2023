@@ -55,7 +55,7 @@
         </div>
       </div>
     </section>
-    <!-- <section class="works">
+    <section class="works">
       <div class="container">
         <div class="works__tabs">
           <button class="works__tab">Все</button>
@@ -71,11 +71,36 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
+
+    <section class="modal">
+      <div class="modal__content">
+        <h3 class="h3">Оставьте заявку</h3>
+        <form class="form form-apply">
+          <div class="form-apply__content">
+            <input placeholder="Имя" type="text" class="input paragraph form-apply__name">
+            <input placeholder="Почта" type="text" class="input paragraph form-apply__email">
+            <select placeholder="Услуга" name="" id="" class="input paragraph form-apply__service">
+              <option value="">-- Услуга --</option>
+              <option value="tilda">Сайты на тильде</option>
+              <option value="web-design">Веб-дизайн</option>
+              <option value="art">Арт-дирекшн</option>
+            </select>
+            <!-- <label for="comment">Комментарий</label> -->
+            <textarea id="comment" name="comment" placeholder="Комментарий"
+              class="input paragraph form-apply__comment"></textarea>
+          </div>
+
+          <div class="form-apply__wrapper-btn">
+            <button class="btn form-apply__btn">Отправить сообщение</button>
+          </div>
+
+        </form>
+      </div>
+    </section>
 
 
   </main>
-
 
 </body>
 

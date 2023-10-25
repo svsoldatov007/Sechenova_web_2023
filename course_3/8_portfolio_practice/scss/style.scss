@@ -2,9 +2,12 @@
 @import './identic/typography';
 @import './identic/mixins';
 @import './identic/btns';
+@import './identic/forms';
 @import './blocks/header';
 @import './blocks/promo';
 @import './blocks/works';
+@import './blocks/modal';
+@import './blocks/apply';
 
 * {
   margin: 0;

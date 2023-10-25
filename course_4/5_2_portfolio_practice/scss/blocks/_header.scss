@@ -1,3 +1,27 @@
+@keyframes moving {
+  from {
+    right: 0px;
+  }
+  50% {
+    right: 75px;
+  }
+  100% {
+    right: 140px;
+  }
+}
+
+@keyframes scaling {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .header {
   display: flex;
   position: relative;
@@ -51,7 +75,7 @@
   &__programmer-wrapper {
     position: absolute;
     top: 40px;
-    right: 148px;
+    right: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,6 +84,7 @@
     flex-shrink: 0;
     border-radius: 10000px;
     background: #f1f1f1;
+    animation: moving 2s ease-in, scaling 2s linear 2s infinite;
   }
 }
 

@@ -1,3 +1,31 @@
+@keyframes moving {
+  0% {
+    right: 0px;
+  }
+
+  50% {
+    right: 74px;
+  }
+
+  100% {
+    right: 148px;
+  }
+}
+
+@keyframes scaling {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.85);
+  }
+
+  100% {
+    transform: scale(0.7);
+  }
+}
+
 .header {
   display: flex;
   position: relative;
@@ -60,6 +88,7 @@
     flex-shrink: 0;
     border-radius: 10000px;
     background: #f1f1f1;
+    animation: moving 3s linear, scaling 3s infinite ease-in-out 3s;
   }
 }
 
