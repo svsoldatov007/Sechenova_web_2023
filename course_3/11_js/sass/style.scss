@@ -1,0 +1,17 @@
+.elem-container {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 200px);
+  justify-content: center;
+  gap: 20px;
+}
+
+.elem {
+  padding: 20px;
+  color: white;
+  background-color: red;
+
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
