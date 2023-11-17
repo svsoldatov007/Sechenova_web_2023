@@ -46,8 +46,6 @@
 
 ## Материалы урока
 
-### Bootstrap
-
 1. [Типы данных](https://learn.javascript.ru/types)
 1. [Взаимодействие с пользователем](https://learn.javascript.ru/alert-prompt-confirm)
 1. [Базовые операторы](https://learn.javascript.ru/operators)
