@@ -1,0 +1,17 @@
+.container {
+  margin: 100px 0px;
+  padding: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(209, 209, 209);
+}
+
+.btn {
+  width: 200px;
+  height: 72px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
