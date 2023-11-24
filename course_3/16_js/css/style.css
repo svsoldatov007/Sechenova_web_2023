@@ -1,0 +1,16 @@
+.btn {
+  width: 150px;
+  height: 72px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 50px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}

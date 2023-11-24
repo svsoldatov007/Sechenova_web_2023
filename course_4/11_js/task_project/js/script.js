@@ -22,9 +22,23 @@ const movieDB = {
   ],
 }
 
-const promoBlock = document.getElementById('promo'),
-  listItems = document.getElementsByTagName('li'),
-  promoMenu = document.getElementsByClassName('promo__interactive-item')
+const { movies } = movieDB
 
-const items = document.querySelectorAll('.promo__interactive-item')
-console.log(items)
+const filmsList = document.querySelector('.promo__interactive-list')
+
+// for (let i = 0; i < movies.length; i++) {
+//   const li = document.createElement('li')
+//   // <li></li>
+
+//   li.classList.add('promo__interactive-item')
+//   li.innerHTML = `${movies[i]} <div class="delete"></div>`
+//   filmsList.append(li)
+// }
+
+let contentOfFilms = ''
+for (let i = 0; i < movies.length; i++) {
+  contentOfFilms += ` <li class="promo__interactive-item">${i + 1}. ${movies[i]}
+                        <div class="delete"></div>
+                      </li>`
+}
+filmsList.innerHTML = contentOfFilms
