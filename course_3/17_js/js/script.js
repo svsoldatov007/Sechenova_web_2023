@@ -39,9 +39,11 @@
 
 // 1
 const data = { a: 1, b: 2, c: 3 }
-console.log(without(data, 'b', 'c')) // { a: 1 }
 
-without = () => {}
+const without = (obj, ...massiveOfKeys) => {
+  console.log(massiveOfKeys)
+}
+console.log(without(data, 'b', 'c')) // { a: 1 }
 
 // 2
 const cylinderArr = [
@@ -54,3 +56,30 @@ const cylinderArr = [
     h: 14.2,
   },
 ]
+
+const arr1 = [{ fio: 'Anton' }, 2, 3, 4]
+const arr2 = [5, 6, 7]
+
+// spread operator
+
+const spreadArray = [...arr1, ...arr2]
+arr1[1] = 123123123
+console.log(spreadArray)
+
+const obj1 = {
+  fio: {
+    name: 'foo',
+  },
+  age: 25,
+}
+const obj2 = {
+  phone: '79276273622',
+  email: 'gmail@gmail.com',
+}
+
+const obj3 = { ...obj1, ...obj2, email: `${obj2.email}+33` }
+obj1.fio.name = 'John Smith'
+console.log(obj3)
+const obj4 = obj1
+
+function someFunc() {}
