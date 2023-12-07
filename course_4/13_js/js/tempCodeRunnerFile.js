@@ -1,37 +1,24 @@
-const cylinderArr = [
-  {
-    r: 5,
-    h: 10,
-  },
-  {
-    r: 2.2,
-    h: 14.2,
-  },
-  {
-    r: 1,
-    h: 100,
-  },
-]
+const mas = [1, 2, 3, 4, 5, 7, 8, 9, 10]
 
-// const countVolume = function (mass) {
-//   const newMass = []
+// mas.every((elem) => elem > 5)
+// ||
+// equal
+// ||
+// mas.every((elem) => {
+//   return elem > 5
+// })
 
-//   for (let i = 0; i < mass.length; i += 1) {
-//     const { r, h } = mass[i]
-//     const V = 3.14 * r * r * h
-//     newMass.push(V)
-//   }
-//   return newMass
-// }
+// console.log(mas.some((elem) => elem > 5))
 
-const countVolume = function (mass) {
-  const newMass = mass.map((value) => {
-    const { r, h } = value
-    const V = 3.14 * r * r * h
-    return V
-  })
+// Tast 9
 
-  return newMass
+function find6(mass) {
+  const isFind6 = mass.some((elem) => elem === 6)
+  if (isFind6) {
+    return mass.join('_')
+  } else {
+    return 'Not found 6'
+  }
 }
 
-console.log(countVolume(cylinderArr))
+console.log(find6(mas))
