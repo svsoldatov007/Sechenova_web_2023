@@ -1,0 +1,23 @@
+.carousel__wrapper {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-around;
+}
+
+.carousel__item {
+  display: flex;
+  flex-direction: column;
+  max-width: 240px;
+  background: white;
+}
+
+.carousel__content {
+  padding: 10px;
+}
+
+.item__last-row {
+  display: flex;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
